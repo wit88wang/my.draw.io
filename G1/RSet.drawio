@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="KnIX090_-ZRGU1ZJ0J4q">
-    <mxGraphModel>
+    <mxGraphModel dx="975" dy="536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="y1DtRR34jdU_2KB-puvJ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#0050EF,#CCFFFF);fontColor=#ffffff;strokeColor=#001DBC;verticalAlign=top;fontSize=18;" value="RSet" vertex="1">
+          <mxGeometry height="370" width="380" x="240" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="y1DtRR34jdU_2KB-puvJ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#CCCCFF);fontSize=15;verticalAlign=top;fontColor=light-dark(#000000,#000033);" value="Map" vertex="1">
+          <mxGeometry height="90" width="350" x="255" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="y1DtRR34jdU_2KB-puvJ-10" edge="1" parent="1" source="y1DtRR34jdU_2KB-puvJ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;strokeColor=light-dark(#000000,#0000FF);" target="y1DtRR34jdU_2KB-puvJ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y1DtRR34jdU_2KB-puvJ-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#FF3333);" value="RegionId" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="y1DtRR34jdU_2KB-puvJ-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="Card Idx" vertex="1">
+          <mxGeometry height="15" width="50" x="405" y="207.5" as="geometry" />
+        </mxCell>
+        <mxCell id="y1DtRR34jdU_2KB-puvJ-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="Card Idx" vertex="1">
+          <mxGeometry height="15" width="50" x="455" y="207.5" as="geometry" />
+        </mxCell>
+        <mxCell id="y1DtRR34jdU_2KB-puvJ-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="Card Idx" vertex="1">
+          <mxGeometry height="15" width="50" x="505" y="207.5" as="geometry" />
+        </mxCell>
+        <mxCell id="y1DtRR34jdU_2KB-puvJ-9" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="590" y="390" as="sourcePoint" />
+            <mxPoint x="640" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y1DtRR34jdU_2KB-puvJ-11" edge="1" parent="1" source="y1DtRR34jdU_2KB-puvJ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;strokeColor=light-dark(#000000,#0000FF);" target="y1DtRR34jdU_2KB-puvJ-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="y1DtRR34jdU_2KB-puvJ-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#FF3333);" value="RegionId" vertex="1">
+          <mxGeometry height="30" width="60" x="260" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="y1DtRR34jdU_2KB-puvJ-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="Card Idx" vertex="1">
+          <mxGeometry height="15" width="50" x="405" y="237.5" as="geometry" />
+        </mxCell>
+        <mxCell id="y1DtRR34jdU_2KB-puvJ-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="Card Idx" vertex="1">
+          <mxGeometry height="15" width="50" x="455" y="237.5" as="geometry" />
+        </mxCell>
+        <mxCell id="y1DtRR34jdU_2KB-puvJ-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" value="Card Idx" vertex="1">
+          <mxGeometry height="15" width="50" x="505" y="237.5" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
