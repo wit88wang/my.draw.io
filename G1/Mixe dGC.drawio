@@ -1,9 +1,172 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="7KO2iAMMjKioHiRKD6Dq">
-    <mxGraphModel>
+    <mxGraphModel dx="1982" dy="1880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#99FFFF);fontColor=light-dark(#000000,#000033);labelBackgroundColor=light-dark(#FFFFFF,#CCFFFF);strokeColor=light-dark(#000000,#FF0000);dashed=1;dashPattern=12 12;" value="" vertex="1">
+          <mxGeometry height="890" width="1040" x="-180" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000033);" value="CSet" vertex="1">
+          <mxGeometry height="30" width="60" x="245" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000033);fillColor=light-dark(#FFFFFF,#FF0080);" value="Mixed GC" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000033);fillColor=light-dark(#FFFFFF,#FF0080);" value="计算Region回收收益率,排序" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-10" edge="1" parent="1" source="eIiozzWjzKndsZLpe7Ic-8" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#000033);" target="eIiozzWjzKndsZLpe7Ic-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="490" />
+            </Array>
+            <mxPoint x="310" y="340" as="sourcePoint" />
+            <mxPoint x="360" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#67AB9F);" value="" vertex="1">
+          <mxGeometry height="90" width="555" x="245" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#D4E1F5);" value="Region&lt;br&gt;(Eden)" vertex="1">
+          <mxGeometry height="60" width="90" x="260" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#D4E1F5);" value="Region&lt;br&gt;(Survivor)" vertex="1">
+          <mxGeometry height="60" width="90" x="350" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000033);" value="..." vertex="1">
+          <mxGeometry height="30" width="60" x="450" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#D4E1F5);" value="Region&lt;br&gt;(Old)" vertex="1">
+          <mxGeometry height="60" width="90" x="510" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#D4E1F5);" value="Region&lt;br&gt;(Old)" vertex="1">
+          <mxGeometry height="60" width="90" x="600" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#D4E1F5);" value="Region&lt;br&gt;(Old)" vertex="1">
+          <mxGeometry height="60" width="90" x="690" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000033);fillColor=light-dark(#FFFFFF,#FF0080);" value="取Region&amp;nbsp; 构建CSet" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#D5E8D4);" value="" vertex="1">
+          <mxGeometry height="80" width="380" x="30" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000033);" value="&lt;div style=&quot;background-color: transparent; font-family: sans-serif;&quot;&gt;Collection Set Candidates&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="170" x="30" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-33" edge="1" parent="1" source="eIiozzWjzKndsZLpe7Ic-9" style="endArrow=classic;html=1;rounded=0;exitX=1.007;exitY=0.62;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#000033);exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0.562;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" target="eIiozzWjzKndsZLpe7Ic-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="161" y="562" as="sourcePoint" />
+            <mxPoint x="220" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000033);" value="&lt;span style=&quot;&quot;&gt;Add All Sorted Region&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="130" x="170" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#D4E1F5);" value="Region&lt;br&gt;(Old)" vertex="1">
+          <mxGeometry height="60" width="90" x="40" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#D4E1F5);" value="Region&lt;br&gt;(Old)" vertex="1">
+          <mxGeometry height="60" width="90" x="130" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#D4E1F5);" value="Region&lt;br&gt;(Old)" vertex="1">
+          <mxGeometry height="60" width="90" x="220" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#D4E1F5);" value="Region&lt;br&gt;(Old)" vertex="1">
+          <mxGeometry height="60" width="90" x="310" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-40" edge="1" parent="1" source="eIiozzWjzKndsZLpe7Ic-9" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#000033);entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="eIiozzWjzKndsZLpe7Ic-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="300" y="660" as="sourcePoint" />
+            <mxPoint x="300" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-41" edge="1" parent="1" source="eIiozzWjzKndsZLpe7Ic-25" style="endArrow=classic;html=1;rounded=0;exitX=0.872;exitY=1.026;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#000033);exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=light-dark(#FFFFFF,transparent);dashed=1;" target="eIiozzWjzKndsZLpe7Ic-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="865" as="sourcePoint" />
+            <mxPoint x="593" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-42" connectable="0" parent="eIiozzWjzKndsZLpe7Ic-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#000033);labelBackgroundColor=none;" value="获取Regions (Old)" vertex="1">
+          <mxGeometry relative="1" x="0.6955" y="-13" as="geometry">
+            <mxPoint x="90" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-43" edge="1" parent="1" source="eIiozzWjzKndsZLpe7Ic-24" style="endArrow=classic;html=1;rounded=0;exitX=0.997;exitY=0.882;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#000033);edgeStyle=orthogonalEdgeStyle;curved=1;labelBackgroundColor=light-dark(#FFFFFF,transparent);exitPerimeter=0;entryX=0.423;entryY=1.041;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" target="eIiozzWjzKndsZLpe7Ic-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="159.59" y="690" />
+              <mxPoint x="479.79" y="690" />
+            </Array>
+            <mxPoint x="591" y="690" as="sourcePoint" />
+            <mxPoint x="560" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-44" connectable="0" parent="eIiozzWjzKndsZLpe7Ic-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#000033);labelBackgroundColor=none;" value="本次Minxed GC回收的Regions" vertex="1">
+          <mxGeometry relative="1" x="0.6955" y="-13" as="geometry">
+            <mxPoint x="-218" y="373" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" value="" vertex="1">
+          <mxGeometry height="90" width="160" x="-10" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#C3ABD0);" value="Regin&lt;br&gt;(Eden)" vertex="1">
+          <mxGeometry height="60" width="65" x="5" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#C3ABD0);" value="Regin&lt;br&gt;(Survivor)" vertex="1">
+          <mxGeometry height="60" width="65" x="70" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-51" edge="1" parent="1" source="eIiozzWjzKndsZLpe7Ic-53" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#000033);edgeStyle=orthogonalEdgeStyle;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=light-dark(#FFFFFF,transparent);dashed=1;" target="eIiozzWjzKndsZLpe7Ic-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-120" y="155" />
+              <mxPoint x="-120" y="670" />
+            </Array>
+            <mxPoint x="661" y="520" as="sourcePoint" />
+            <mxPoint x="460" y="858" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-52" connectable="0" parent="eIiozzWjzKndsZLpe7Ic-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#000033);labelBackgroundColor=none;" value="获取 All Regions (Young)" vertex="1">
+          <mxGeometry relative="1" x="0.6955" y="-13" as="geometry">
+            <mxPoint y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-54" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000033);" value="Young" vertex="1">
+          <mxGeometry height="30" width="60" x="-10" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-55" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=light-dark(#000000,#000033);fillColor=light-dark(#FFFFFF,#FF0080);" value="GC Root Scan &amp;amp;&amp;amp; CleanUp &amp;amp;&amp;amp; Evacuation" vertex="1">
+          <mxGeometry height="60" width="120" x="510" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-56" edge="1" parent="1" source="eIiozzWjzKndsZLpe7Ic-24" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#000033);entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;" target="eIiozzWjzKndsZLpe7Ic-55" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="260" y="790" as="sourcePoint" />
+            <mxPoint x="260" y="845" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-57" edge="1" parent="1" source="eIiozzWjzKndsZLpe7Ic-15" style="endArrow=classic;html=1;rounded=0;exitX=0.579;exitY=0.978;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000033);" target="eIiozzWjzKndsZLpe7Ic-55" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="530" as="sourcePoint" />
+            <mxPoint x="250" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000033);" value="复制存活对象到新的Regions" vertex="1">
+          <mxGeometry height="30" width="170" x="570" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-60" edge="1" parent="1" source="eIiozzWjzKndsZLpe7Ic-55" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeColor=light-dark(#000000,#000033);dashed=1;dashPattern=8 4 1 4;" target="eIiozzWjzKndsZLpe7Ic-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="860" />
+              <mxPoint x="70" y="860" />
+            </Array>
+            <mxPoint x="280" y="640" as="sourcePoint" />
+            <mxPoint x="330" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eIiozzWjzKndsZLpe7Ic-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000033);" value="如果需要下一轮Mixed GC" vertex="1">
+          <mxGeometry height="30" width="170" x="270" y="820" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
